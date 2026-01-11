@@ -4,10 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "react-native",
+    "steps",
+    "form",
+    "multi-step-form",
+    "wizard"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "@types/react-native": "^0.72.8",
+    "react": "^19.2.3",
+    "react-native": "^0.83.1",
+    "typescript": "^5.9.3"
+  }
 }
