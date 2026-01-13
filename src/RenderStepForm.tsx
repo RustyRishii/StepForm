@@ -221,7 +221,7 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import React, { FC, useState, ReactNode } from "react";
 
-interface RenderStepForm {
+interface RenderStepFormProps {
   totalSteps: number;
   indicatorColor: string;
   headText: string;
@@ -231,7 +231,7 @@ interface RenderStepForm {
   onComplete?: () => void;
 }
 
-const MultiStepForm: FC<RenderStepForm> = ({
+const RenderStepForm: FC<RenderStepFormProps> = ({
   totalSteps,
   indicatorColor,
   headText,
@@ -339,4 +339,4 @@ const MultiStepForm: FC<RenderStepForm> = ({
   );
 };
 
-export default MultiStepForm;
+export default RenderStepForm;
