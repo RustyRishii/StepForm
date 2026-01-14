@@ -1,16 +1,22 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
+    "target": "ES2020",
     "module": "commonjs",
+    "lib": ["ES2020"],
+    "jsx": "react-native",
     "declaration": true,
+    "declarationMap": true,
     "outDir": "./lib",
+    "rootDir": "./src",
     "strict": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "jsx": "react-native",
-    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "types": []
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "lib", "example"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "lib", "**/*.test.ts", "**/*.test.tsx"]
 }
