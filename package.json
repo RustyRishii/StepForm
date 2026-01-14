@@ -1,6 +1,6 @@
 {
   "name": "rnstepform",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A flexible and customizable multi-step form component for React Native",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
