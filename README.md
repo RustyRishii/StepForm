@@ -2,6 +2,8 @@
 
 A simple, lightweight, and customizable multi-step form component for React Native with TypeScript support.
 
+## Demo Video
+
 https://github.com/user-attachments/assets/b1868626-0390-4094-96ba-d78a6c225a7b
 
 
